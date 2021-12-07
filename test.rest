@@ -1,0 +1,30 @@
+GET http://localhost:8000/api/book HTTP/1.1
+
+### 
+POST http://localhost:8000/api/user HTTP/1.1
+header name: header value
+
+{
+    "name":"Admin",
+    "email":"admin@gmail.com",
+    "password":"password",
+    "password":"password",
+}
+
+### login
+POST http://localhost:8000/api/login HTTP/1.1
+
+{
+    "email":"ugaylord@example.org",
+    "password":"password",
+}
+
+### register
+POST http://localhost:8000/api/register HTTP/1.1
+
+{
+    "name":"Admin",
+    "email":"admin@gmail.com",
+    "password":"password",
+    "password_confirmation":"password",
+}
